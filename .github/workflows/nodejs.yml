@@ -17,5 +17,7 @@ jobs:
         node-version: [10.x, 12.x]
 
     steps:
-    - name: Build the Project
+    - name: install dependencies
+      run: npm i
+    - name: build the project
       run: npm run build
