@@ -5,6 +5,7 @@ name: Node.js CI
 
 on:
   pull_request:
+    tags: [add-me]
     branches: [ master ]
 
 jobs:
@@ -14,9 +15,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [10.x]
 
     steps:
+    - name: setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
     - name: install dependencies
       run: npm i
     - name: build the project
