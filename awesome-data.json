@@ -410,6 +410,17 @@
                         "C#",
                         "Go"
                     ]
+                },
+                {
+                    "name": "Ali Ul Huq",
+                    "github_link": "https://github.com/RaeesBhatti",
+                    "github_user": "RaeesBhatti",
+                    "web": "https://raeesbhatti.com",
+                    "technologies": [
+                        "JavaScript",
+                        "C#",
+                        "Go"
+                    ]
                 }
             ]
         },
